@@ -1,6 +1,7 @@
 go 1.18
 
 use (
+	./abstract-factory
 	./herencia
 	./poo
 	./repaso-general
