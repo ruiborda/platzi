@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"strconv"
+	"time"
 )
 
 func main() {
@@ -29,4 +30,21 @@ func main() {
 		fmt.Printf("%d: %d\n", i, v)
 	}
 
+	// apuntadores
+	g := 25
+	fmt.Println(g)
+	p := &g
+	fmt.Println(p)
+	fmt.Println(*p)
+	
+	// goRoutines
+	c := make(chan bool)
+	go doSomething(c)
+	<-c
+}
+
+func doSomething(c chan bool) {
+	time.Sleep(3 * time.Second)
+	fmt.Printf("Done\n")
+	c <- true
 }
