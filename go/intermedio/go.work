@@ -1,3 +1,6 @@
 go 1.18
 
-use ./repaso-general
+use (
+	./poo
+	./repaso-general
+)

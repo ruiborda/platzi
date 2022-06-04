@@ -36,7 +36,7 @@ func main() {
 	p := &g
 	fmt.Println(p)
 	fmt.Println(*p)
-	
+
 	// goRoutines
 	c := make(chan bool)
 	go doSomething(c)
