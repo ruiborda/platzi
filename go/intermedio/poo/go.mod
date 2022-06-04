@@ -1,3 +1,3 @@
-module github.com/ruiborda/platzi/go/intermedio/POO
+module github.com/ruiborda/platzi/go/intermedio/poo
 
 go 1.18
