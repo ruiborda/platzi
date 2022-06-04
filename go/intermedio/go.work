@@ -2,7 +2,9 @@ go 1.18
 
 use (
 	./abstract-factory
+	./functions
 	./herencia
 	./poo
 	./repaso-general
+	./testing
 )
